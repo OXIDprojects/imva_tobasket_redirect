@@ -26,8 +26,8 @@ ALTER TABLE 'oxarticles' ADD 'tz' TINYINT( 1 ) NOT NULL;
 *	Kopieren Sie den Inhalt des Verzeichnisses /modules/ in das gleichnamige Shopverzeichnis.
 *	Öffnen Sie den Shop-Admin und navigieren Sie zu Service => Tools und führen Sie die folgenden SQL-Befehle aus:
 
-ALTER TABLE 'oxarticles' ADD 'imva_tobasketurl' VARCHAR( 256 ) NOT NULL;
-ALTER TABLE 'oxarticles' ADD 'imva_tobasketurlact' TINYINT( 1 ) NOT NULL;
+ALTER TABLE `oxarticles` ADD `imva_tobasketurl` VARCHAR( 256 ) NOT NULL;
+ALTER TABLE `oxarticles` ADD `imva_tobasketurlact` TINYINT( 1 ) NOT NULL;
 
 *	Klicken Sie anschließend auf "Views jetzt updaten".
 *	Navigieren Sie zu Erweiterungen => Module; wählen Sie "toBasket-Redirect".
