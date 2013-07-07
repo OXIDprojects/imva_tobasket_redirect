@@ -47,7 +47,7 @@ $aModule = array(
 		'de'	=>	'<p>Leitet auf einen zuvor eingestellten URL um, wenn die toBasket-Aktion ausgef&uuml;hrt wird.</p>',
 	),
 	'thumbnail'		=> 'out/src/imva-Logo-90.png',
-	'version'		=> '0.0.1',
+	'version'		=> '1.0',
 	'author'		=> 'Johannes Ackermann',
 	'url'			=> 'http://imva.biz',
 	'email' 		=> 'imva@imva.biz',
