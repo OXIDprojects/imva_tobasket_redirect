@@ -15,8 +15,8 @@ Dieses Modul erweitert die Artikelverwaltung um Eingabefelder für Ziel-URLs. Au
 *	Copy the contents of /modules/ to your shop's module directory.
 *	Open the shop admin and go to Service => Tools and execute the following SQL commands:
 
-ALTER TABLE 'oxarticles' ADD 'te' VARCHAR( 256 ) NOT NULL;
-ALTER TABLE 'oxarticles' ADD 'tz' TINYINT( 1 ) NOT NULL;
+ALTER TABLE `oxarticles` ADD `imva_tobasketurl` VARCHAR( 256 ) NOT NULL;
+ALTER TABLE `oxarticles` ADD `imva_tobasketurlact` TINYINT( 1 ) NOT NULL;
 
 *	Afterwards, click "update views" in the area below.
 *	Go to Extensions => Modules and select "toBasket-Redirect".
