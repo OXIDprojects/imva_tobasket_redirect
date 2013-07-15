@@ -29,8 +29,8 @@
  * (c) 2013 imva.biz, Johannes Ackermann, ja@imva.biz
  * @author Johannes Ackermann
  *
- * 13/7/2-3
- * V 1.0
+ * 13/7/2-15
+ * V 1.0.1
  *
  */
 
@@ -54,7 +54,7 @@ class imva_oxcmp_basket_redirect extends imva_oxcmp_basket_redirect_parent
 	{
 		parent::__construct();
 		$this->_oSvc = oxNew('imva_service');
-		$this->_oSvc->init(20130704);
+		$this->_oSvc->init(20130715);
 	}
 	
 	
@@ -72,8 +72,6 @@ class imva_oxcmp_basket_redirect extends imva_oxcmp_basket_redirect_parent
 	 */
 	public function tobasket($sProductId = null, $dAmount = null, $aSel = null, $aPersParam = null, $blOverride = false)
 	{
-		parent::tobasket();
-
 		$oArticle = oxNew('oxarticle');
 		$oArticle->load($this->_oSvc->req('anid'));
 		

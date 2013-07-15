@@ -29,8 +29,8 @@
  * (c) 2013 imva.biz, Johannes Ackermann, ja@imva.biz
  * @author Johannes Ackermann
  *
- * 13/7/2
- * v 0.1
+ * 13/7/2-15
+ * v 0.1.5
  *
  */
 
